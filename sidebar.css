@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;  
+}
+
+#maindiv{
+    background-image: url("photo\ \(1\).jpg");
+    background-size: cover;
+    height: 100vh;
+}
+#checkBox{
+    display: none;
+}
+
+#sidebaricon{
+    color: white;
+    position: relative;
+    left: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+    
+}
+
+#logoname{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: 48px;
+    left: 70px;
+    font-size: 22px;
+}
+#cross{
+    color: rgb(41, 40, 40);
+    position: relative;
+    bottom: 92px;
+    left: 265px;
+    opacity: 1;
+    
+    
+
+}
+#listitem{
+    margin-left: 10px;
+    
+}
+#listitem ul li a,i{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+#listitem ul li a{
+    text-decoration: none;
+}
+
+
+#brandicons i{
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 32px;
+    opacity: 0.5;
+}
+#menu{
+    width: 300px;
+    height: 700px;
+    background-color: rgba(255, 255,255,0.2);
+    position: relative;
+    right: 500px;
+    box-shadow: 0 0 5px rgba(255,255, 255, 0.5);
+    
+}
+
+#listitem ul li:hover{
+    box-shadow: 0px 0px 4px black;
+}
+#brandicons i:hover{
+    transform: scale(1.2);
+}
+
+#cross i:hover{
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+}
+#sidebaricon i:hover{
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+}
+
+#checkBox:checked ~ #menu {
+    left: 0;
+  }
